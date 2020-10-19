@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkosinathi Mzembe - Portfolio</title>
+    <link rel="icon" href="assets/img/portrait.jpg">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="https://use.fontawesome.com/a71e5ce1d6.js"></script>
+    <style type="text/css">
+    .row {
+      display: flex;
+    }
+
+    .column {
+      flex: 33.33%;
+      padding: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <p>Nkosinathi Mzembe</p>
+
+        <button class="burger" id="burger">
+            &#9776
+        </button>
+
+        <ul>
+            <li><a id="home-anchor" href="#">Home</a></li>
+            <li><a id="edu-anchor" href="#education">Education</a></li>
+            <li><a id="comm-anchor" href="#gallery">Gallery</a></li>
+            <li><a id="exp-anchor" href="#experience">Experience</a></li>
+            <li><a id="proj-anchor" href="#projects">Projects</a></li>
+            <li><a id="stack-anchor" href="#graphic-designs">Graphic Designs</a></li>
+        </ul>
+    </nav>
+
+    <div class="toggle-bar">
+        <button class="mode" onClick="toggleTheme()"><i id="icon" class="fa fa-moon-o" aria-hidden="true"></i></button>
+    </div>
+
+    <div class="profile">
+        <img src="assets/img/portrait.jpg" alt="">
+        <div class="bio-text">
+            <h2>About Me</h2><span></span>
+            <p>Computer Science Student | MCF Vice President ~Ashesi | Baobab Ambassador | Research Associate ~EdPlus</p>
+            <p> I am a young and passionate Malawian who believes in the African potential to catalyze technology across its boarders.<br> I look forward to making a positive change in the technological aspect of human day-to-day interactions with devices that serve to ease the process in which tasks are accomplished; efficiently and effectively. I have a keen interest in Digital Culture, Social Computing, Multimedia, Web Development, and Computer Programming. I also love music and graphic design.</p>
+
+            <div class="social-media">
+                <i class="fa fa-twitter" aria-hidden="true"><a href="https://twitter.com/nkosi_mzembe" target="_blank"
+                        rel="noopener">Twitter</a></i>
+                <i class="fa fa-linkedin" aria-hidden="true"><a href="https://www.linkedin.com/in/nkosinathi-mzembe-378b2814a/"
+                        target="_blank" rel="noopener">LinkedIn</a></i>
+                <i class="fa fa-github" aria-hidden="true"><a href="https://github.com/NkosinathiMzembe" target="_blank"
+                        rel="noopener">GitHub</a></i>
+                <i class="fa fa-facebook-official" aria-hidden="true"><a href="https://web.facebook.com/Nkosinathi.Mzembe"
+                        target="_blank" rel="noopener">Facebook</a></i>
+                <i class="fa fa-download" aria-hidden="true"><a
+                        href="https://waynegakuo.netlify.app/assets/resume/Nkosinathi_Mzembe_CV.pdf" target="_blank"
+                        rel="noopener">Résumé</a></i>
+                <i class="fa fa-envelope" aria-hidden="true"><a href="mailto:mzembenkosi@gmail.com" target="_blank"
+                        rel="noopener">Email Me</a></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="featured">
+        <img width="50%" height="50%" src="assets/img/DSC.jpg">
+    </div>
+
+    <div class="education" id="education">
+        <h2>Education</h2><span></span>
+            <div class="edu">
+                <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                    BSc. Computer Science</span>
+                <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    Ashesi University, Ghana</span>
+                <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Aug 2017 - Present</span>
+                <p class="description">I received a 4-year scholarship from the MasterCard Foundation to study Computer
+                Science at Ashesi University, Ghana. Through my years at Ashesi University, apart from academics, I
+                have been involved in various activities including give-back community programs and problem-solving.</p>
+            </div>
+
+            <div class="edu">
+                <span class="course"><i class="fa fa-book" aria-hidden="true"></i>
+                    Malawi School Certificate of Education , M.S.C.E.</span>
+                <span class="school"><i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    Chaminade Secondary School, Karonga</span>
+                <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                    Sept 2011 - Aug 2015</span>
+                <p class="description">An all boys boarding school where I did my 4 years of secondary education, privileged to have served on the prefectual body as the Secretary during the 2013-2014 academic year. A postion that equipped me with the necessary leadership and communication skills essential in fostering change.</p>
+            </div>
+        </div>
+
+     <div class="communities" id="gallery">
+        <h2>Gallery</h2><span></span>
+            <div class="row">
+              <div class="column">
+                <img src="assets/img/onStage.jpg" alt="Snow" style="width:100%">
+                <span class="role"><b>Contieh</b> - Gospel Musician</span>
+                    <p class="description">A budding gospel musician who has recorded about 14 songs so far available on <a style="color: green;text-decoration: none" href="https://soundcloud.com/nathi-aj-mzembe"><b>SoundCloud</b></a>.</p>
+              </div>
+              <div class="column">
+                <img src="assets/img/debuging.jpg" alt="Forest" style="width:100%">
+                <span class="role"><b>Nkosi</b> - Tech Enthusiast</span>
+                    <p class="description">I am passionate about technology and love helping people with their tech-related problems.</p>
+              </div>
+              <div class="column">
+                <img src="assets/img/designlab.png" alt="Mountains" style="width:100%">
+                <span class="role"><b>Nkosinathi</b> - Design Advocate</span>
+                    <p class="description">I believe that everybody is a design thinker and therefore, I try to make the people realize it too.</p>
+              </div>
+            </div>
+        </div>
+
+    <div class="experience" id="experience">
+        <h2>Experience</h2><span></span>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Baobab Research Associate</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                EdPlus at Arizona State University</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Sept 2020 - Present</span>
+            <p class="description">Provision of user experience, technology, and data support for the Baobab team to enhance the platform.<br>Develop and execute relevant creative online content to captivate the interest of the Baobab community.<br>Test new features added to the Baobab application as part of its upgrade in mitigating reported issues.
+            </p>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                Operations Associate</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                GIBAC IT Services & Consultancy</span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Jul 2020 - Aug 2020</span>
+            <p class="description">Designed and developed company websites to boost the company’s recognition on the internet.<br>Conducted website audits on client websites to evaluate whether the website meets required benchmarks.<br>Provided information technology related advice in helping clients make informed decisions for their websites. 
+            </p>
+        </div>
+
+        <div class="exp">
+            <span class="role"><i class="fa fa-laptop" aria-hidden="true"></i>
+                R&D Intern</span>
+            <span class="company"><i class="fa fa-building-o" aria-hidden="true"></i>
+                Grafix Resolution Limited </span>
+            <span class="date"><i class="fa fa-clock-o" aria-hidden="true"></i>
+                Jul 2019</span>
+            <p class="description">Conducted research and collected data on clientele that would be used in creating a company database.<br>  Assisted with the printing of business and ID cards for customers who needed these cards in their offices.<br>Helped the company devise a potent company operation and management plan, which is in effect till date.</p>
+        </div>
+    </div>
+
+    <div class="projects" id="projects">
+        <h2>Projects</h2><span></span>
+        <div class="project-section">
+            <div class="content">
+                <div class="top background">
+                </div>
+                <div class="footer">
+                    <h3>iAttended</h3>
+                    <p>A class attendance monitoring system that uses a QR generated code that the students scan to confirm their presence in class for attendance taking by the Lecturer.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="second background">
+                </div>
+                <div class="footer">
+                    <h3>Timiza Initiative</h3>
+                    <p>Timiza Initiative is an organization in Kenya that feeds homeless children in Nairobi. This web application was developed so that donations can easily be made, and also for people to see what the organization has been up to.</p>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="third background">
+                </div>
+                <div class="footer">
+                    <h3>Bauxite International School</h3>
+                    <p>The web application enables parents to view infomation about the school as well as to download the admissions form from it</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="fourth background">
+                </div>
+                <div class="footer">
+                    <h3>Lutowo Farm</h3>
+                    <p>This is a personal project which I developed for my Dad's farm in Malawi. The website shows visitors the people working on the farm as well and develop prjects that is being undertaken.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tech-stack" id="graphic-designs">
+        <h2>Graphic Designs</h2><span></span>
+
+        <div class="stack-imgs"> 
+            <img src="assets/img/Neemachics.png" alt="Neemachics">
+            <img src="assets/img/Not-Alone_Art.png" alt="Not Alone">
+            <img src="assets/img/AT_Logo.png" alt="African Tansformers">
+            <img src="assets/img/I-Need-You_Art.jpg" alt="I Need You">
+            <img src="assets/img/TRY_Logo.png" alt="Try Foundation">
+            <img src="assets/img/Energy_Art.jpg" alt="Energy">
+            <img src="assets/img/MN_Logo.png" alt="Mentors Network">
+        </div>
+    </div>
+
+    <footer>
+        <span class="footer_desc">Thanks for knowing <a style="color: green" class="git_link" href="https://github.com/NkosinathiMzembe"
+                target="_blank" rel="noopener"><b>Nkosinathi Mzembe</b></a></span>
+    </footer>
+</body>
+<script src="js/index.js"></script>
+
+</html>
