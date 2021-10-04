@@ -305,7 +305,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/iAttended.png");
+  background: url("../assets/img/Wandalute.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -317,7 +317,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/Timiza.png");
+  background: url("../assets/img/BlueSky.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -329,7 +329,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/Bauxite.png");
+  background: url("../assets/img/iAttended.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -341,7 +341,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/Lutowo.png");
+  background: url("../assets/img/Timiza.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -352,7 +352,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/webshot.png");
+  background: url("../assets/img/Bauxite.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -363,7 +363,7 @@ nav ul li a:hover::after {
   height: 207px;
   width: 100%;
   padding: 10px;
-  background: url("../assets/img/pwa.png");
+  background: url("../assets/img/Lutowo.png");
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
